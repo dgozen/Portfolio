@@ -29,6 +29,7 @@ body {
 	margin-top: 5vh;
 	color: var(--color-paragraph);
 	box-shadow: var(--text-shadow);
+	padding: 4px;
 }
 
 .header {
