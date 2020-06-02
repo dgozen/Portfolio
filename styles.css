@@ -148,7 +148,7 @@ img {
 }
 
 span {
-	font-family: cursive;
+	color: var(--color-header);
 	font-weight: bold;
 }
 .p {
@@ -169,6 +169,10 @@ span {
 .y {
 	color: #ec0f47;
 }
+.brown {
+	color: #593c1f;
+}
+
 /* Footer */
 footer {
 	background-color: var(--color-paragraph);
