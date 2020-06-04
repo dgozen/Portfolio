@@ -1,6 +1,6 @@
 :root {
 	--color-background: #f0f0e3;
-	--color-header: #ff5c57;
+	--color-header: #ff3f38;
 	--color-paragraph: #333333;
 	--color-banner: #cdcdb0;
 	--color-hover: #be6863;
@@ -41,6 +41,7 @@ body {
 
 p {
 	font-size: 16px;
+	letter-spacing: 0.2rem;
 	color: var(--color-paragraph);
 	margin: 0;
 	padding: 5vw 5vw 0vw 5vw;
