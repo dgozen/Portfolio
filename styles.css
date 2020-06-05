@@ -149,6 +149,13 @@ img {
 	width: unset;
 }
 
+#me {
+	float: left;
+	box-shadow: none;
+	margin-top: 5vh;
+	height: 50vh;
+}
+
 span {
 	color: var(--color-header);
 	font-weight: bold;
@@ -197,6 +204,11 @@ footer {
 	margin: 2.5vw;
 }
 
+@media only screen and (min-width: 350px) {
+	#me {
+		shape-outside: polygon(69% 0, 100% 65%, 68% 100%, 0 100%, 0 0);
+	}
+}
 @media only screen and (min-width: 550px) {
 	.title {
 		font-size: 25px;
@@ -229,6 +241,9 @@ footer {
 		grid-gap: 2vw;
 		justify-items: center;
 		justify-content: center;
+	}
+	#me {
+		height: 35vw;
 	}
 	#projects img {
 		width: 50vw;
