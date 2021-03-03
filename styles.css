@@ -238,7 +238,7 @@ footer {
 
   .projectsContainer {
     display: grid;
-    grid-template-rows: repeat(8, auto);
+    grid-template-rows: repeat(10, auto);
     grid-template-columns: 60% 40%;
     grid-gap: 2vw;
     justify-items: center;
@@ -257,28 +257,33 @@ footer {
     width: 15vw !important;
     border-radius: 25px;
   }
-
-  #grp {
+  #accessibleDatepicker {
     justify-self: left;
     grid-row: 1 / span 1;
     grid-column: 1 / span 2;
   }
 
-  #calendar {
+  #grp {
     justify-self: left;
     grid-row: 3 / span 1;
     grid-column: 1 / span 2;
   }
 
-  #quotey {
+  #calendar {
     justify-self: left;
     grid-row: 5 / span 1;
     grid-column: 1 / span 2;
   }
 
-  #wwt {
+  #quotey {
     justify-self: left;
     grid-row: 7 / span 1;
+    grid-column: 1 / span 2;
+  }
+
+  #wwt {
+    justify-self: left;
+    grid-row: 9 / span 1;
     grid-column: 1 / span 2;
   }
 }
