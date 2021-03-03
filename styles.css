@@ -44,7 +44,7 @@ p {
   letter-spacing: 0.2rem;
   color: var(--color-paragraph);
   margin: 0;
-  padding: 5vw 5vw 0vw 5vw;
+  padding: 2vw 3vw 2vw 3vw;
 }
 
 h3 {
@@ -234,7 +234,6 @@ footer {
 
   p {
     font-size: 20px;
-    padding: 3vw 3vw 0vw 3vw;
   }
 
   .projectsContainer {
