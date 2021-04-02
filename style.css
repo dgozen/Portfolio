@@ -14,7 +14,7 @@ body {
 }
 
 html {
-  padding: 0 0 0 2%;
+  padding: 0 0 2% 2%;
 }
 * {
   box-sizing: border-box;
@@ -80,7 +80,8 @@ a:active {
   padding: 2%;
 }
 
-#sayHi {
+#sayHi,
+#sayHiBottom {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -122,13 +123,13 @@ a:active {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.1rem;
   border: none;
-  margin-right: 52px;
+  margin-right: 5%;
 }
 
 #duygu {
-  width: 50vh;
+  width: 75vw;
   margin-left: 2vw;
-  left: 20%;
+  left: 35vw;
   position: relative;
   z-index: -5;
 }
@@ -202,6 +203,10 @@ a:active {
     display: none;
   }
 
+  #duygu {
+    margin-top: 8vw;
+  }
+
   h1 {
     font-size: 50px;
   }
@@ -227,6 +232,10 @@ a:active {
 @media only screen and (min-width: 550px) {
   #sayHi {
     display: block;
+  }
+
+  #sayHiBottom {
+    display: none;
   }
 
   h1 {
