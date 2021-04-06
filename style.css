@@ -1,7 +1,6 @@
 :root {
-  --color-main: #ff811a;
-  --color-second: #eeac76;
-  --color-third: #f36d00;
+  --color-main: #f36d00;
+  --color-second: #ff811a;
 }
 
 html,
@@ -50,14 +49,16 @@ a:visited {
   color: black;
 }
 a:hover {
-  color: var(--color-third);
+  color: var(--color-second);
+  font-weight: bolder;
 }
 a:active {
-  color: var(--color-third);
+  color: var(--color-second);
 }
 
 .mail:hover {
-  color: var(--color-third);
+  color: var(--color-second);
+  font-weight: bolder;
 }
 
 .mail {
@@ -66,7 +67,6 @@ a:active {
 }
 
 /* Style the header section */
-
 .navbar {
   position: fixed;
   background-color: white;
@@ -94,7 +94,7 @@ a:active {
 }
 
 #sayHi:hover {
-  color: var(--color-third);
+  color: var(--color-second);
 }
 
 .name {
@@ -182,9 +182,10 @@ a:active {
 }
 
 .section a:hover {
-  color: var(--color-third);
+  color: var(--color-second);
   padding: 0;
   font-size: inherit;
+  font-weight: bolder;
 }
 
 .projectSection {
