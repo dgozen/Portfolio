@@ -376,7 +376,7 @@ a:active {
     width: 160px;
   }
 
-  #aboutContent {
+  .aboutContent {
     padding-top: 10%;
   }
 }
